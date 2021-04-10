@@ -8,11 +8,13 @@ html {
 
 body {
     font-family: 'Inter', sans-serif;
+    margin: 0;
 }
 
 h1 {
     font-weight: 800;
     font-size: 2.8rem;
+    padding-inline-start: 5px;
 }
 
 h2,
@@ -22,4 +24,33 @@ h3 {
 
 p {
     font-size: 1.6rem;
+}
+
+figure {
+    margin: 0;
+}
+
+img {
+    width: 100%;
+}
+
+.wrapper {
+    max-inline-size: 1232px;
+    margin: 0 auto;
+}
+
+/* Header section */
+
+.header-content {
+    background-color: black;
+    color: white;
+    inline-size: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu {
+    inline-size: 35px;
+    padding-inline-end: 5px;
 }
