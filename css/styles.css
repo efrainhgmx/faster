@@ -20,11 +20,15 @@ h1 {
 h2,
 h3 {
     font-size: 2.5rem;
+    margin: 0;
 }
 
-p {
+p,
+a {
     font-size: 1.6rem;
+    color: var(--gray-color);
 }
+
 
 figure {
     margin: 0;
@@ -53,4 +57,34 @@ img {
 .menu {
     inline-size: 35px;
     padding-inline-end: 5px;
+}
+
+.menu:hover {
+    cursor: pointer;
+}
+
+/* Main section */
+
+/* First section */
+
+.hero-section {
+    block-size: 350px;
+    padding: 15px;
+    background-image: url(../assets/img/background-hero.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+
+.hero-button {
+    display: block;
+    margin-block: 12px;
+    inline-size: 175px;
+    block-size: 50px;
+    border-radius: 5px;
+    border: 2px solid white;
+    font-weight: 700;
+    color: white;
+    background-color: transparent;
 }
