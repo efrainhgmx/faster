@@ -150,3 +150,16 @@ section:nth-of-type(4) p {
 .green-line img {
     height: 100%;
 }
+
+/* Fifth section */
+.woman-section {
+    display: flex;
+    flex-direction: column-reverse;
+}
+.content-description {
+    margin-block-start: 15px;
+}
+.woman-image {
+    margin: 15px auto;
+    inline-size: 170px;
+}
