@@ -90,6 +90,9 @@ img {
 }
 
 /* Second section */
+section {
+    min-block-size: 280px;
+}
 
 .brands-container {
     display: flex;
@@ -111,12 +114,39 @@ img {
     padding-inline: 15px;
 }
 /* Third Section */
-section:nth-of-type(3) {
+section:nth-of-type(3),
+section:nth-of-type(4) {
     display: flex;
     align-items: center;
-    min-block-size: 280px;
+}
+
+section:nth-of-type(3) {
     background-image: url(../assets/img/bgImage-section.png);
     background-position: right;
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+/* Fourth Section */
+section:nth-of-type(4) {
+    justify-content: center;
+    flex-direction: column;
+    padding-block: 20px;
+    background-color: black;
+    color: white;
+}
+
+section:nth-of-type(4) p {
+    color: white;
+}
+
+.green-line {
+    inline-size: 85%;
+    block-size: 22px;
+    align-self: flex-end;
+    margin-block-end: 30px;
+}
+
+.green-line img {
+    height: 100%;
 }
