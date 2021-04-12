@@ -31,6 +31,9 @@ a {
     color: var(--gray-color);
 }
 
+button:hover {
+    cursor: pointer;
+}
 
 figure {
     margin: 0;
@@ -60,11 +63,6 @@ img {
     inline-size: 35px;
     padding-inline-end: 5px;
 }
-
-.menu:hover {
-    cursor: pointer;
-}
-
 /* Main section */
 
 /* First section */
@@ -198,4 +196,27 @@ p span {
 
 .card p:first-of-type {
     margin-block-end: 25px;
+}
+
+.card,
+.float-card {
+    border-radius: 10px;
+}
+
+/* Float Card */
+.float-card {
+    margin: auto;
+    padding-block: 25px;
+    inline-size: 225px;
+    text-align: center;
+}
+
+.float-card button {
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+    font-weight: 700;
+    background-color: black;
+    inline-size: 175px;
 }
