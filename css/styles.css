@@ -1,5 +1,7 @@
 :root {
     --gray-color: #808080;
+    --bg-gray:#ECEEF1;
+
 }
 
 html {
@@ -162,4 +164,34 @@ section:nth-of-type(4) p {
 .woman-image {
     margin: 15px auto;
     inline-size: 170px;
+}
+
+/* Cards Section */
+.cards-section {
+    padding-block: 20px;
+    text-align: center;
+    background-color: var(--bg-gray);
+}
+
+.card {
+    inline-size: 200px;
+    margin: auto;
+    text-align: center;
+    margin-block: 35px;
+    padding: 15px;
+    background-color: white;
+}
+.user {
+    position: relative;
+    bottom: 40px;
+    inline-size: 60px;
+    margin: 0 auto;
+}
+
+p strong {
+    color: black;
+}
+
+p span {
+    display: block;
 }
