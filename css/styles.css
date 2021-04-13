@@ -166,7 +166,7 @@ section:nth-of-type(4) p {
 
 /* Cards Section */
 .cards-section {
-    padding-block: 20px;
+    padding-block: 85px;
     text-align: center;
     background-color: var(--bg-gray);
 }
@@ -205,10 +205,17 @@ p span {
 
 /* Float Card */
 .float-card {
+    position: relative;
+    bottom: 75px;
     margin: auto;
     padding-block: 25px;
     inline-size: 225px;
     text-align: center;
+    background-color: white;
+}
+
+.float-card h3 {
+    color: black;
 }
 
 .float-card button {
@@ -223,11 +230,14 @@ p span {
 
 /* Footer Section */
 footer {
-    padding: 15px;
     background-color: black;
     color: var(--gray-color);
 }
 
+.social-media,
+ul {
+    padding: 15px;
+}
 .social-media--icons {
     display: flex;
 }
@@ -239,8 +249,8 @@ footer {
 .social-icon:nth-of-type(2) {
     margin-inline: 10px;
 }
-ul {
-    padding: 0;
+
+ul:first-of-type {
     margin-block-end: 25px;
 }
 
