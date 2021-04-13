@@ -10,6 +10,10 @@ html {
 
 body {
     font-family: 'Inter', sans-serif;
+}
+
+body,
+figure {
     margin: 0;
 }
 
@@ -22,7 +26,6 @@ h1 {
 h2,
 h3 {
     font-size: 2rem;
-    margin: 0;
 }
 
 p,
@@ -33,10 +36,6 @@ a {
 
 button:hover {
     cursor: pointer;
-}
-
-figure {
-    margin: 0;
 }
 
 img {
@@ -90,7 +89,7 @@ img {
 
 /* Second section */
 section {
-    min-block-size: 280px;
+    min-block-size: 290px;
 }
 
 .brands-container {
