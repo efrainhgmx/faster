@@ -220,3 +220,42 @@ p span {
     background-color: black;
     inline-size: 175px;
 }
+
+/* Footer Section */
+footer {
+    padding: 15px;
+    background-color: black;
+    color: var(--gray-color);
+}
+
+.social-media--icons {
+    display: flex;
+}
+
+.social-icon {
+    inline-size: 30px;
+}
+
+.social-icon:nth-of-type(2) {
+    margin-inline: 10px;
+}
+ul {
+    padding: 0;
+    margin-block-end: 25px;
+}
+
+footer h3,
+ul p {
+    color: white;
+}
+
+ul li {
+    list-style: none;
+    line-height: 18px;
+    font-size: 1.2rem;
+}
+
+ul li:hover {
+    cursor: pointer;
+    color: white;
+}
