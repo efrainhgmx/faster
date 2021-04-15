@@ -63,6 +63,16 @@ img {
 }
 /* Main section */
 
+.mobile-frame:first-of-type {
+    position: relative;
+    bottom: 80px;
+}
+
+.mobile-frame {
+    margin-inline: auto;
+    inline-size: 130px;
+}
+
 /* First section */
 
 .hero-section {
