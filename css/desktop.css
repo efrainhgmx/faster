@@ -116,10 +116,11 @@ footer {
         display: none;
     }
 
-    nav a {
+    .menu-nav a {
         padding: 10px;
         margin-inline-end: 20px;
         text-decoration: none;
+        margin-block-end: 0;
     }
 
     nav a:hover {
@@ -130,6 +131,8 @@ footer {
     .menu-nav {
         position: static;
         background-color: transparent;
+        flex-direction: row;
+        height: auto;
     }
 
     .fast-login {
