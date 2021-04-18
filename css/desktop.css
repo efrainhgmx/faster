@@ -18,6 +18,7 @@ section {
 }
 
 .hero-section {
+    block-size: 70vh;
     display: flex;
     justify-content: flex-end;
 }
