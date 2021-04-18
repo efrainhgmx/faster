@@ -75,6 +75,10 @@ section:nth-of-type(5) {
     flex-direction: column;
 }
 
+.woman-image {
+    inline-size: 250px;
+}
+
 .cards-content {
     display: flex;
 }
@@ -87,6 +91,12 @@ section:nth-of-type(5) {
 
 .card p {
     font-size: 1.8rem;
+}
+
+.cards-section,
+footer {
+    position: relative;
+    z-index: 3;
 }
 
 .float-card {
@@ -103,7 +113,7 @@ section:nth-of-type(5) {
 
 @media (min-width: 1024px) {
     .mobile-frame:first-of-type {
-        inline-size: 20%;
+        inline-size: 18%;
     }
 
     section:nth-of-type(2) {
