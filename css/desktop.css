@@ -112,6 +112,37 @@ footer {
 }
 
 @media (min-width: 1024px) {
+    .menu {
+        display: none;
+    }
+
+    nav a {
+        padding: 10px;
+        margin-inline-end: 20px;
+        text-decoration: none;
+    }
+
+    nav a:hover {
+        color: white;
+        border-bottom: 2px solid white;
+    }
+
+    .menu-nav {
+        position: static;
+        background-color: transparent;
+    }
+
+    .fast-login {
+        display: block;
+        inline-size: 10%;
+        margin-inline-end: 10px;
+        border: none;
+        border-radius: 8px;
+        padding: 10px;
+        font-weight: 700;
+        font-size: 1.6rem;
+    }
+
     .mobile-frame:first-of-type {
         inline-size: 18%;
     }
@@ -124,3 +155,6 @@ footer {
         inline-size: 120px;
     }
 }
+    
+
+    

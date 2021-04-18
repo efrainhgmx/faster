@@ -61,6 +61,26 @@ img {
     inline-size: 35px;
     padding-inline-end: 5px;
 }
+
+.menu-nav {
+    position: relative;
+    right: -65vw;
+    width: 65vw;
+    z-index: 4;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .4s;
+}
+
+.menu-nav.is-active {
+    right: 0;
+}
+
+.fast-login {
+    display: none;
+}
 /* Main section */
 
 .mobile-frame:first-of-type {
