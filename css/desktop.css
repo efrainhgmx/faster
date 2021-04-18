@@ -26,6 +26,15 @@ section {
     inline-size: 60%;
 }
 
+/* Mobile Frame */
+.mobile-frame:first-of-type {
+    position: fixed;
+    top: 20vh;
+    left: 10px;
+    z-index: 2;
+    inline-size: 160px;
+} 
+
 .brands-container {
     flex-direction: row;
     justify-content: flex-end;
@@ -89,4 +98,10 @@ section:nth-of-type(5) {
     block-size: auto;
     display: flex;
     align-items: flex-start;
+}
+
+@media (min-width: 1024px) {
+    .mobile-frame:first-of-type {
+        inline-size: 20%;
+    }
 }
