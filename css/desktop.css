@@ -64,3 +64,17 @@ section:nth-of-type(5) {
 .woman-section {
     flex-direction: column;
 }
+
+.cards-content {
+    display: flex;
+}
+
+.card {
+    inline-size: 30%;
+    max-inline-size: 430px;
+    margin-inline: 10px;
+}
+
+.card p {
+    font-size: 1.8rem;
+}
