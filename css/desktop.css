@@ -78,3 +78,9 @@ section:nth-of-type(5) {
 .card p {
     font-size: 1.8rem;
 }
+
+.float-card {
+    inline-size: 70%;
+    max-inline-size: 900px;
+    padding-block: 30px;
+}
