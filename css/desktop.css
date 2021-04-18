@@ -23,7 +23,7 @@ section {
 }
 
 .hero-content {
-    inline-size: 60%;
+    inline-size: 70%;
 }
 
 /* Mobile Frame */
@@ -38,7 +38,8 @@ section {
 .brands-container {
     flex-direction: row;
     justify-content: flex-end;
-    padding-inline-end: 20px;
+    padding-inline-end: 80px;
+    margin-block-end: 30px;
 }
 
 .brand-icon {
@@ -103,5 +104,13 @@ section:nth-of-type(5) {
 @media (min-width: 1024px) {
     .mobile-frame:first-of-type {
         inline-size: 20%;
+    }
+
+    section:nth-of-type(2) {
+        block-size: auto;
+        padding-block-end: 30px;
+    }
+    .brand-icon {
+        inline-size: 120px;
     }
 }
