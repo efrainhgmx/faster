@@ -6,12 +6,19 @@ It's simply it's fast.
 
 ![Faster](./assets/img/README-IMG.gif/)
 
-## Contributors
+## Landing Page 
 
-Landing design by:
+- Responsive design integrated.
+- Resolution: 320px, 768px and 1024px.
+- Opengraph protocol integrated.
+- 100% SEO, good accesibily and performance.
+
+### Contributors 
+
+Landing design by ✍:
 
 - **[@uxcristopher](https://www.instagram.com/uxcristopher/ "@uxcristopher")** 
 
-Code by:
+Code by 👨‍💻:
 
 - **[@efrainhgmx](https://www.instagram.com/efrainhgmx/ "@efrainhgmx")**
