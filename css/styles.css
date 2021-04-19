@@ -51,7 +51,7 @@ img {
 .header-content {
     background-color: black;
     color: white;
-    inline-size: 100%;
+    padding-inline: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
