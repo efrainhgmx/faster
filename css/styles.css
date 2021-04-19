@@ -63,7 +63,7 @@ img {
 }
 
 .menu-nav {
-    position: absolute;
+    position: fixed;
     top: 0;
     right: -65vw;
     width: 65vw;
