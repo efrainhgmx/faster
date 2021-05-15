@@ -96,6 +96,9 @@ img {
     display: none;
 }
 /* Main section */
+.sticky-mobile {
+    display: none;
+}
 
 .mobile-frame:first-of-type {
     position: relative;

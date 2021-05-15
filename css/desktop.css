@@ -28,12 +28,22 @@ section {
 }
 
 /* Mobile Frame */
+.sticky-mobile {
+    display: block;
+}
+
+.sticky-wrapper {
+    position: relative;
+    bottom: 71vh;
+}
 .mobile-frame:first-of-type {
-    position: fixed;
+    position: sticky;
     top: 20vh;
-    left: 10px;
+    right: 120px;
     z-index: 2;
     inline-size: 160px;
+    block-size: 70vh;
+    justify-self: flex-start;
 } 
 
 .brands-container {
