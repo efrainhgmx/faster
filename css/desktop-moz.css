@@ -1,0 +1,204 @@
+h2,
+h3 {
+    font-size: 2.8rem;
+}
+
+p,
+a {
+    font-size: 2rem;
+}
+
+.block {
+    display: none;
+}
+
+section {
+    block-size: 770px;
+    align-items: center;
+}
+
+.hero-section {
+    block-size: 70vh;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.hero-content {
+    inline-size: 70%;
+}
+
+/* Mobile Frame */
+.sticky-mobile {
+    display: block;
+}
+
+.mobile-frame:first-of-type {
+    position: fixed;
+    top: 20vh;
+    right: 74vw;
+    z-index: 2;
+    inline-size: 160px;
+    block-size: 70vh;
+} 
+
+.brands-container {
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-inline-end: 80px;
+    margin-block-end: 30px;
+}
+
+.brand-icon {
+    inline-size: 120px;
+    block-size: auto;
+}
+
+.section-content {
+    inline-size: 70%;
+    position: relative;
+    left: 28vw;
+}
+
+section:nth-of-type(2) {
+    padding-block-start: 85px;
+}
+section:nth-of-type(4) {
+    align-items: flex-start;
+}
+
+.green-line {
+    inline-size: 70%;
+    block-size: 30px;
+    margin-block-start: 30px;
+}
+
+section:nth-of-type(5) {
+    display: flex;
+    align-items: center;
+}
+
+.woman-section {
+    flex-direction: column;
+}
+
+.woman-image {
+    inline-size: 250px;
+}
+
+.cards-content {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    inline-size: 30%;
+    max-inline-size: 430px;
+    margin-inline: 10px;
+}
+
+.card p {
+    font-size: 1.8rem;
+}
+
+.cards-section,
+footer {
+    position: relative;
+    z-index: 3;
+}
+
+.float-card {
+    inline-size: 70%;
+    max-inline-size: 900px;
+    padding-block: 30px;
+}
+
+.footer-content {
+    block-size: auto;
+    display: flex;
+    align-items: flex-start;
+}
+
+@media (min-width: 1024px) {
+    .menu {
+        display: none;
+    }
+
+    .menu-nav a {
+        padding: 10px;
+        margin-inline-end: 20px;
+        text-decoration: none;
+        margin-block-end: 0;
+    }
+
+    nav a:hover {
+        color: white;
+        border-bottom: 2px solid white;
+    }
+
+    .menu-nav {
+        position: static;
+        background-color: transparent;
+        flex-direction: row;
+        height: auto;
+    }
+
+    .fast-login {
+        display: block;
+        inline-size: 12%;
+        margin-inline-end: 10px;
+        border: none;
+        border-radius: 8px;
+        padding: 10px;
+        font-weight: 700;
+        font-size: 1.6rem;
+    }
+
+    .mobile-frame:first-of-type {
+        inline-size: 18%;
+    }
+
+    section:nth-of-type(2) {
+        block-size: auto;
+        padding-block-end: 30px;
+    }
+    .brand-icon {
+        inline-size: 120px;
+    }
+}
+    
+
+@media (min-width: 1440px) {
+    h1,
+    h2,
+    h3 {
+        font-size: 3.4rem;
+    }
+
+    .menu-nav a ,
+    .fast-login {
+        font-size: 2.2rem;
+    }
+
+    p,
+    a {
+        font-size: 2.6rem;
+    }
+
+    .hero-button {
+        inline-size: 220px;
+        block-size: 75px;
+        font-size: 2.2rem;
+    }
+
+    .brand-icon {
+        inline-size: 250px;
+    }
+
+    section {
+        block-size: 870px;
+    }
+
+    .green-line {
+        block-size: 48px;
+    }
+}  
