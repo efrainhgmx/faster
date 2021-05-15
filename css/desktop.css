@@ -34,12 +34,13 @@ section {
 
 .sticky-wrapper {
     position: relative;
-    bottom: 71vh;
+    bottom: 70vh;
 }
+
 .mobile-frame:first-of-type {
     position: sticky;
     top: 20vh;
-    right: 120px;
+    right: 74vw;
     z-index: 2;
     inline-size: 160px;
     block-size: 70vh;
@@ -92,6 +93,7 @@ section:nth-of-type(5) {
 
 .cards-content {
     display: flex;
+    justify-content: center;
 }
 
 .card {
@@ -108,6 +110,7 @@ section:nth-of-type(5) {
 footer {
     position: relative;
     z-index: 3;
+    bottom: 60vh;
 }
 
 .float-card {
@@ -171,4 +174,38 @@ footer {
 }
     
 
-    
+@media (min-width: 1440px) {
+    h1,
+    h2,
+    h3 {
+        font-size: 3.4rem;
+    }
+
+    .menu-nav a ,
+    .fast-login {
+        font-size: 2.2rem;
+    }
+
+    p,
+    a {
+        font-size: 2.6rem;
+    }
+
+    .hero-button {
+        inline-size: 220px;
+        block-size: 75px;
+        font-size: 2.2rem;
+    }
+
+    .brand-icon {
+        inline-size: 250px;
+    }
+
+    section {
+        block-size: 870px;
+    }
+
+    .green-line {
+        block-size: 48px;
+    }
+}  
